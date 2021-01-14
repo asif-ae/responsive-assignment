@@ -17,6 +17,16 @@ img {
   height: auto;
 }
 
+.about-section img {
+  width: 75px;
+  height: auto;
+  margin: auto 0;
+}
+
+img.wall {
+  width: 100%;
+}
+
 #main-logo {
   width: 50px;
   margin-right: 10px;
