@@ -32,6 +32,10 @@ img.wall {
   margin-right: 10px;
 }
 
+.extra img {
+  width: 175px;
+}
+
 /* Top Background Style */
 .top-background {
   position: absolute;
@@ -43,9 +47,9 @@ header {
   background-color: #FFF9F4;
 }
 
-/* .first-section {
-  border: 1px solid #363958;
-} */
+.extra {
+  border-top: 3px solid #FFF9F4;
+}
 
 /* Custom Colors */
 .orange {
@@ -58,10 +62,6 @@ header {
 
 .gray {
   background-color: #F1F1F1;
-}
-
-.light {
-  color: #FFF9F4;
 }
 
 /* Button Style */
@@ -78,10 +78,10 @@ header {
 }
 
 /* Custom Border-radius */
-.round-10 {
-  border-radius: 10px;
-}
-
 .round-20 {
   border-radius: 20px;
+}
+
+a {
+  text-decoration: none !important;
 }
